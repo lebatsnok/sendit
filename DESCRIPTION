@@ -1,0 +1,14 @@
+Package: sendit
+Type: Package
+Title: Wrap it and send it
+Version: 0.1
+Date: 2018-05-22
+Author: Kenn
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: This is a super package.
+License: GPL (>= 2)
+LazyData: TRUE
+Imports:
+    knitr,
+    rJython
+RoxygenNote: 7.1.2
