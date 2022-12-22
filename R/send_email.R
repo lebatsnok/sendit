@@ -51,7 +51,7 @@ send_email <- function(to, from, subject, message, attachment=NULL, username, pa
                                                      e-mail password", "")
 
   # require(rJython)
-  rJython <- list( exec = py_run_string)
+  rJython <- rJython()
 
   rJython$exec("import smtplib")
   rJython$exec("import os")
